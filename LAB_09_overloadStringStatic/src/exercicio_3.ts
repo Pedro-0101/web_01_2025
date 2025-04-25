@@ -79,7 +79,20 @@ class Exercicios3 {
         return result;
     }
 
+    static removerVogais(frase: string):string{
+
+        frase = frase
+                    .replaceAll("a", "")
+                    .replaceAll("e", "")
+                    .replaceAll("i", "")
+                    .replaceAll("o", "")
+                    .replaceAll("u", "")
+
+        return frase;
+
+    }
+
 }
 
 
-console.log(Exercicios3.primeiraLetra('banana nanana nana na'));
+console.log(Exercicios3.removerVogais('banana  babebibobu nanana nene na'));
