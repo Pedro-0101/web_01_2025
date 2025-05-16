@@ -1,0 +1,16 @@
+{
+  "name": "lab_14",
+  "version": "1.0.0",
+  "description": "criando servico no modelo mvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.18",
+    "express": "^5.1.0"
+  }
+}
